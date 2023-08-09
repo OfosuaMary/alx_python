@@ -1,14 +1,6 @@
-count = 0
-while count <= 9:
-    count1 = 0
-    while count1 <= 9:
-     
-     if count == 9 and count1 == 9:
-        print("{}{}".format(count,count1))
-        break
-     else:
-      print("{}{},".format(count,count1), end='')
-     
-     count1 += 1
-    count += 1
+for x in range (00,100) :
+    if x < 99:
+      print("%02d" %x, end=", ")
+    else:
+      print(x)
 
