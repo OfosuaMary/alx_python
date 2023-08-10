@@ -16,5 +16,3 @@ def fibonacci_sequence(n):
             b=d
             i+=1
     return c
-print(fibonacci_sequence(1))
-
