@@ -9,4 +9,3 @@ def is_prime(number):
           continue
  return True
 
-print(is_prime(2))
