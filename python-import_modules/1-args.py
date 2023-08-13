@@ -11,3 +11,4 @@ if __name__ == "__main__":
         print("{} arguments:".format(l-1))
         while a < l:
             print("{}: {} ".format((a),argv[a]))
+            a +=1
